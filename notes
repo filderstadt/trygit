@@ -11,3 +11,6 @@ git log --pretty=oneline
 git reset --hard HEAD^
 git reset --hard 3628164
 git reflog
+git diff HEAD -- readme.txt
+git reset HEAD -- readme.txt
+git checkout -- readme.txt
